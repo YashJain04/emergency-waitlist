@@ -109,6 +109,7 @@ catastrophic: 10-20 minutes
 maximal: 0-10 minutes (ideally should wait the lowest amount of time, but if the queue is filled and a patient arrived before them they will still have to wait)
 
 Website States:
+
 Homepage [Homepage](https://github.com/YashJain04/emergency-waitlist/blob/Main/homepageImage.png?raw=true)
 
 Admin Sign In [Admin Sign In](https://github.com/YashJain04/emergency-waitlist/blob/Main/adminSignInImage.png?raw=true)
