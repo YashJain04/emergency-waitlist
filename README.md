@@ -27,10 +27,10 @@ How To Setup/Run The Application:
 6. Once done, make sure to close the Apache Server using "apachectl stop" in the command terminal
 
 How To Download/Setup Apache (Macbook M1 & M2):
-1. Install Apache using Homebrew
+1. Install Apache using Homebrew using the following command:
 brew install apache-httpd
 
-2. Install PHP:
+2. Install PHP using the following command:
 brew install php
 
 3. In case of M1 and M2, find the locate DocumentRoot (folder where to have the directory) by running the command:
@@ -120,4 +120,16 @@ New User [New User Image](https://github.com/YashJain04/emergency-waitlist/blob/
 
 Returning User [Returning User](https://github.com/YashJain04/emergency-waitlist/blob/Main/returningUserImage.png?raw=true)
 
-Example User Wait Time John Doe[Example User Wait Time John Doe](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
+Example User Wait Time John Doe [Example User Wait Time John Doe](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
+
+Other Suggestions...
+-> After removing/helping users it would be also nice to reset the sequence in Postgres SQL this can be done by the query:
+SELECT pg_get_serial_sequence('users', 'id');
+ALTER SEQUENCE users_id_seq RESTART WITH 1;
+
+-> Insertion of dummy data query:
+INSERT INTO users (name, code, severity, injury) VALUES ('Josh Doe', 'AAA', 'maximal', 'I am feeling some heart pain, headaches, and other symptoms.');
+INSERT INTO users (name, code, severity, injury) VALUES ('John Doe', 'BBB', 'minor', 'I have a slight cough.');
+INSERT INTO users (name, code, severity, injury) VALUES ('Jane Doe', 'CCC', 'moderate', 'I have some ear pain.');
+INSERT INTO users (name, code, severity, injury) VALUES ('Janet Doe', 'DDD', 'serious', 'I have twisted my ankle.');
+SELECT * FROM users;
