@@ -102,7 +102,7 @@ if (userSignInButton) {
                     var waitTimeContainer = document.getElementById('waitTimeContainer');
                     var waitTimeMessage = document.createElement('h1');
                     waitTimeMessage.className = 'center-align'; // Add class to the h1 element
-                    waitTimeMessage.textContent = 'Current Wait Time: ' + response.currentWaitTime;
+                    waitTimeMessage.textContent = 'Current Wait Time: ' + response.currentWaitTime + " minutes.";
                     waitTimeContainer.appendChild(waitTimeMessage);
                 } else {
                     // Display error message if sign in failed
