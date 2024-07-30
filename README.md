@@ -1,3 +1,7 @@
+IMPORTANT - If there is trouble running the application please see the submitted video for proof of the application running.
+
+IMPORTANT - Portfolio Resubmission: Please see the resubmitted Portfolio with all the changes suggested by the TA for previous projects. The final project is updated to address all concerns and updated with links to take you to each individual project's GitHub.
+
 Student Details:
 Yash Jain - 300245571
 Oliver Byl - 300168571
@@ -56,11 +60,17 @@ Using The Application:
 - Log into your user through the login button and once correct credentials are entered you can see the current wait-time
 
 Example User Details:
+
 id |   name    | code | severity |                            injury                            | wait_time 
+
 ----+-----------+------+----------+--------------------------------------------------------------+-----------
+
 1 | Josh Doe  | AAA  | maximal  | I am feeling some heart pain, headaches, and other symptoms. |         7
+
 2 | John Doe  | BBB  | minor    | I have a slight cough.                                       |        67
+
 3 | Jane Doe  | CCC  | moderate | I have some ear pain.                                        |       127
+
 4 | Janet Doe | DDD  | serious  | I have twisted my ankle.                                     |       171
 
 -> As an admin
@@ -68,10 +78,15 @@ id |   name    | code | severity |                            injury            
 - Login with the admin details:
 
 Admin Details:
+
 id |    name    | password 
+
 ----+------------+-----------
+
 1 | Yash Jain  | 300245571
+
 2 | Oliver Byl | 300168571
+
 3 | root       | root
 
 - Once logged in admins can see the entire queue of patients and help (remove) them as necessary
@@ -104,4 +119,4 @@ New User [New User Image](https://github.com/YashJain04/emergency-waitlist/blob/
 
 Returning User [Returning User](https://github.com/YashJain04/emergency-waitlist/blob/Main/returningUserImage.png?raw=true)
 
-Example User Wait Time [Example User Wait Time](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
+Example User Wait Time John Doe[Example User Wait Time](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
