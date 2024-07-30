@@ -56,23 +56,23 @@ Using The Application:
 - Log into your user through the login button and once correct credentials are entered you can see the current wait-time
 
 Example User Details:
- id |   name    | code | severity |                            injury                            | wait_time 
+id |   name    | code | severity |                            injury                            | wait_time 
 ----+-----------+------+----------+--------------------------------------------------------------+-----------
-  1 | Josh Doe  | AAA  | maximal  | I am feeling some heart pain, headaches, and other symptoms. |         7
-  2 | John Doe  | BBB  | minor    | I have a slight cough.                                       |        67
-  3 | Jane Doe  | CCC  | moderate | I have some ear pain.                                        |       127
-  4 | Janet Doe | DDD  | serious  | I have twisted my ankle.                                     |       171
+1 | Josh Doe  | AAA  | maximal  | I am feeling some heart pain, headaches, and other symptoms. |         7
+2 | John Doe  | BBB  | minor    | I have a slight cough.                                       |        67
+3 | Jane Doe  | CCC  | moderate | I have some ear pain.                                        |       127
+4 | Janet Doe | DDD  | serious  | I have twisted my ankle.                                     |       171
 
 -> As an admin
 - On the homepage select that you are an ADMIN
 - Login with the admin details:
 
 Admin Details:
- id |    name    | password  
+id |    name    | password 
 ----+------------+-----------
-  1 | Yash Jain  | 300245571
-  2 | Oliver Byl | 300168571
-  3 | root       | root
+1 | Yash Jain  | 300245571
+2 | Oliver Byl | 300168571
+3 | root       | root
 
 - Once logged in admins can see the entire queue of patients and help (remove) them as necessary
 - Watch the queue times get updated upon helping patients
@@ -94,14 +94,14 @@ catastrophic: 10-20 minutes
 maximal: 0-10 minutes (ideally should wait the lowest amount of time, but if the queue is filled and a patient arrived before them they will still have to wait)
 
 Website States:
-Homepage [Application Homepage](https://github.com/YashJain04/emergency-waitlist/blob/main/homepageImage.png?raw=true)
+Homepage [Application Homepage](https://github.com/YashJain04/emergency-waitlist/blob/Main/homepageImage.png?raw=true)
 
-Admin Sign In [Admin Sign In](https://github.com/YashJain04/emergency-waitlist/blob/main/adminSignInImage.png?raw=true)
+Admin Sign In [Admin Sign In](https://github.com/YashJain04/emergency-waitlist/blob/Main/adminSignInImage.png?raw=true)
 
-Admin Sees Patients [Admin Checks Patients](https://github.com/YashJain04/emergency-waitlist/blob/main/patientsListImage.png?raw=true)
+Admin Sees Patients [Admin Checks Patients](https://github.com/YashJain04/emergency-waitlist/blob/Main/patientsListImage.png?raw=true)
 
-New User [New User Image](https://github.com/YashJain04/emergency-waitlist/blob/main/newUserImage.png?raw=true)
+New User [New User Image](https://github.com/YashJain04/emergency-waitlist/blob/Main/newUserImage.png?raw=true)
 
-Returning User [Returning User](https://github.com/YashJain04/emergency-waitlist/blob/main/returningUserImage.png?raw=true)
+Returning User [Returning User](https://github.com/YashJain04/emergency-waitlist/blob/Main/returningUserImage.png?raw=true)
 
-Example User Wait Time [Example User Wait Time](https://github.com/YashJain04/emergency-waitlist/blob/main/johnDoeWaitTimeExample.png?raw=true)
+Example User Wait Time [Example User Wait Time](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
