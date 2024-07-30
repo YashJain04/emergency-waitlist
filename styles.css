@@ -1,0 +1,139 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Zain';
+}
+
+.hidden {
+    display: none;
+}
+
+.banner {
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    background-color: lightseagreen;
+    padding: 1%;
+    font-size: 260%;
+}
+
+/* homepage styles */
+.homepage {
+    overflow: hidden;
+}
+
+.landing-image {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid;
+    border-image: white;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+  }
+
+.homepage-button {
+    color: white;
+    background-color: orange;
+    font-family: "Zain";
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.homepage-button:hover {
+    border-color: white;
+}
+
+/* other pages */
+.mini-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.space-out {
+    margin-top: 2%;
+}
+
+.general-button {
+    border-radius: 25px;
+    font-family: "Zain";
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 15px;
+    color: #F8EDED;
+    background-color: #FF8225;
+}
+
+.general-button:hover {
+    border-color: #4ECDC4;
+}
+
+/* Center the table on the page */
+#resultContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust this if necessary */
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center table horizontally */
+}
+
+/* Style table headers and cells */
+th, td {
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 8px; /* Padding inside cells */
+    text-align: center; /* Center align text inside cells */
+}
+
+/* Optional: Style table headers */
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+.button-special {
+    margin-top: 50px;
+}
+
+.center-align {
+    text-align: center;
+}

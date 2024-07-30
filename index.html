@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "This website is Group 4's submission for CSI 3140 - Assignment 4 - Hospital Triage Application">
+        <meta name = "author" content = "Yash Jain - 300245571 & Oliver Byl - 300168571">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <link rel = "stylesheet" href = "styles.css">
+
+        <title> Group 4's Hospital Triage Application </title>
+    </head>
+
+    <body class="homepage">
+        <h1 class = "banner"> HOSPITAL TRIAGE </h1>
+
+        <main>
+            <div class="content">
+                <img class="landing-image" src="hospitalImage.jpg">
+
+                <div class="background-box">
+                    <h1> Are you a user or an admin? </h1>
+
+                    <div class="button-container">
+                      <button type="button" class="homepage-button" onclick="showUserPage()"> USER </button>
+                      <button type="button" class="homepage-button" onclick="showAdminPage()"> ADMIN </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src = "app.js"></script> <!-- Allow for DOM to fully load then insert JS Script -->
+    </body>
+</html>

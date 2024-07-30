@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="banner">HOSPITAL TRIAGE</h1>
+
+    <main>
+        <h1 class="mini-header">USERS PAGE</h1>
+
+        <div class="button-container">
+            <button type="button" class="general-button" id="newUserButton" onclick="showNewUserForm()">NEW USER</button>
+            <button type="button" class="general-button" id="returningUserButton" onclick="showReturningUserForm()">RETURNING USER</button>
+        </div>
+
+        <div class="content">
+            <form id="newUserForm" class="hidden">
+                <label for="newUserName">FULL NAME:</label>
+                <input type="text" id="newUserName" name="newUserName" placeholder="Enter Full Name">
+                
+                <br>
+                
+                <label for="newUserCode">CREATE A 3 LETTER CODE FOR SIGN IN:</label>
+                <input type="text" id="newUserCode" name="newUserCode" placeholder="Create 3 Letter Code" maxlength="3">
+                
+                <br>
+
+                <label for="newUserSeverity">Select Severity:</label>
+                <select id="newUserSeverity" name="newUserSeverity">
+                    <option value="minor">minor</option>
+                    <option value="moderate">moderate</option>
+                    <option value="serious">serious</option>
+                    <option value="severe">severe</option>
+                    <option value="critical">critical</option>
+                    <option value="catastrophic">catastrophic</option>
+                    <option value="maximal">maximal</option>
+                </select>                    
+                
+                <br>
+
+                <label for="newUserInjury">Explain Your Injury:</label>
+                <input type="text" id="newUserInjury" name="newUserInjury" placeholder="Type here...">
+                
+                <br>
+                
+                <div class="button-container">
+                    <input class="space-out general-button" id="userSignUpButton" type="submit" value="SIGN UP">
+                </div>
+            </form>
+    
+            <form id="returningUserForm" class="hidden">
+                <label for="returningUserName">FULL NAME:</label>
+                <input type="text" id="returningUserName" name="returningUserName" placeholder="Enter Full Name">
+                
+                <br>
+                
+                <label for="returningUserCode">3 LETTER CODE:</label>
+                <input type="text" id="returningUserCode" name="returningUserCode" placeholder="Enter 3 Letter Code" maxlength="3">
+                
+                <br>
+                
+                <div class="button-container">
+                    <input class="space-out general-button" id="userSignInButton" type="submit" value="SIGN IN">
+                </div>
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button type="button" class="general-button space-out" onclick="returnToHome()">HOME</button>
+        </div>
+
+        <!-- Container to display the wait time message -->
+        <div id="waitTimeContainer"></div>
+    </main>
+    <script src="app.js"></script> <!-- Allow for DOM to fully load then insert JS Script -->
+</body>
+</html>

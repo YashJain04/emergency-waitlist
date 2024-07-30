@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="banner"> HOSPITAL TRIAGE </h1>
+    
+    <main>
+        <h1 class="mini-header"> ADMIN PAGE </h1>
+
+        <form class="content" id="adminForm">
+            <label for="adminName">ADMIN NAME:</label>
+            <input type="text" id="adminName" name="adminName" placeholder="Enter Admin Name">
+            
+            <br>
+            
+            <label for="adminPassword">ADMIN PASSWORD:</label>
+            <input type="password" id="adminPassword" name="adminPassword" placeholder="Enter Admin Password">
+            
+            <br>
+            
+            <div class="button-container">
+                <input type="submit" id="signInButton" class="general-button" value="SIGN IN">
+                <button type="button" class="general-button" onclick="returnToHome()"> HOME </button>
+            </div>
+        </form> 
+        
+        <!-- Container for the result table -->
+        <div class="content" id="resultContainer"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
