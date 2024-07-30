@@ -109,7 +109,7 @@ catastrophic: 10-20 minutes
 maximal: 0-10 minutes (ideally should wait the lowest amount of time, but if the queue is filled and a patient arrived before them they will still have to wait)
 
 Website States:
-Homepage [Application Homepage](https://github.com/YashJain04/emergency-waitlist/blob/Main/homepageImage.png?raw=true)
+Homepage [Homepage](https://github.com/YashJain04/emergency-waitlist/blob/Main/homepageImage.png?raw=true)
 
 Admin Sign In [Admin Sign In](https://github.com/YashJain04/emergency-waitlist/blob/Main/adminSignInImage.png?raw=true)
 
@@ -119,4 +119,4 @@ New User [New User Image](https://github.com/YashJain04/emergency-waitlist/blob/
 
 Returning User [Returning User](https://github.com/YashJain04/emergency-waitlist/blob/Main/returningUserImage.png?raw=true)
 
-Example User Wait Time John Doe[Example User Wait Time](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
+Example User Wait Time John Doe[Example User Wait Time John Doe](https://github.com/YashJain04/emergency-waitlist/blob/Main/johnDoeWaitTimeExample.png?raw=true)
